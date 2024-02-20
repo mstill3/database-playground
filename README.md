@@ -69,7 +69,7 @@
     ./bin/start_db.sh
     ```
 
-6. (Optional) For a command line into the database container
+6. (Optional) For a command line interface into the database container
     ```bash
     ./bin/enter_db.sh
     ```
