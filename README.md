@@ -2,7 +2,7 @@
 
 ## Notes
 - All software I ask you to install is free for academic use
-- I organized the directories in the following way:
+- I organized the directories in the following way
     - `bin/` contains the executable shell scripts
     - `docs/` contains the additional documentation files (they end in `.md`)
     - `res/` contains the additional resources like image files
@@ -42,15 +42,15 @@
         ```
         ![docker ps start command image](res/docker_cli_start_ps.png)  
 
-4. Once running, you can now connect to the database at [localhost:5432](localhost:5432).
-    - The database info can all be changed in the `bin/start_db.sh` file under the `# Set local variables` comment.
+4. Once running, you can now connect to the database at [localhost:5432](localhost:5432)
+    - The database info can all be changed in the `bin/start_db.sh` file under the `Set local variables` comment.
     - The current database settings are:
-        - `host`: `localhost`
-        - `username`: `postgres`
-        - `port`: `5432`
-        - `password`: `password`
+        - `HOST = localhost`
+        - `PORT = 5432`
+        - `USERNAME = postgres`
+        - `PASSWORD = password`
 
-5. (Optional) To connect to the local database there are the following applications you can use:
+5. (Optional) To connect to the local database there are the following applications you can use
     - [BeeKeeper](https://www.beekeeperstudio.io/get)
         - Connecting to local DB
             ![connecting in beekeeper](res/beekeeper_connect.png)  
