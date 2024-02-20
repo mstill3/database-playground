@@ -1,15 +1,19 @@
 # Local Database Playground
 
 ### Notes
-- I organized the SQL scripts in the following way:
-    - `src/migrations` are initialized database SQL commands
-    - `src/scripts` are on-the-fly, ad-hoc SQL commands  
+- I organized the directories in the following way:
+    - `bin` holds the executable shell scripts
+    - `docs` holds the additional documentation files
+    - `res` holds the additional resources like image files
+    - `src` holds the SQL files
+        - `migrations` are initialized on startup database SQL commands
+        - `scripts` are on-the-fly, ad-hoc SQL commands  
 
 ### Setup
 1. Install [docker](https://docs.docker.com/engine/install/)
-2. Only If running on Windows OS
+2. Only If you are running on Windows OS
     1. Install [git bash](https://gitforwindows.org/)
-    2. For all the following commands use the `git bash` terminal since it supports running `*.sh` file
+    2. For all the following commands use the `git bash` terminal since it supports running scripts ending in `.sh`
 
 ### Running
 1. Ensure docker is running
@@ -24,7 +28,7 @@
     ![docker desktop image](res/docker_desktop.png)
 
 4. Once running, you can now connect to the database at [localhost:5432](localhost:5432).  
-The database info can all be changed in the `bin/start_db.sh` file under `Set local variables`.  
+The database info can all be changed in the `bin/start_db.sh` file under `# Set local variables`.  
 The current values are:
 - `username: postgres`
 - `port: 5432`
