@@ -47,6 +47,7 @@
     - The current database settings are:
         - `HOST = localhost`
         - `PORT = 5432`
+        - `DB_NAME = postgres`
         - `USERNAME = postgres`
         - `PASSWORD = password`
 
