@@ -10,13 +10,13 @@
         - `migrations/` contains the initialized on startup database SQL commands
         - `scripts/` contains the on-the-fly, ad-hoc SQL commands  
 
-## Setup
+## Pre-requisites
 1. Install [docker](https://docs.docker.com/engine/install/)
 2. Only If you are running on Windows OS
     1. Install [git](https://gitforwindows.org/)
     2. For all the following commands use the `git bash` terminal since it supports running scripts ending in `.sh`
 
-## Running
+## Instructions
 1. Ensure docker is running
     - You should see a little whale in the taskbar  
     ![whale symbol image](res/whale.png)
@@ -75,6 +75,6 @@
     ```
     ![cli for postgres](res/psql_cli.png)
 
-## Additional Documentation 
-- [Postgres Commands](docs/Postgres_Commands.md)
-- [SQL Commands](docs/SQL_Commands.md)
+## Relevant Documentation 
+- [Postgres Command Examples](docs/Postgres_Commands.md)
+- [SQL Command Examples](docs/SQL_Commands.md)
