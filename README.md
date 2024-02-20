@@ -1,7 +1,7 @@
 # Local Database Playground
 
 ## Notes
-- All software I ask you to install is free for academic use
+- All software I ask you to install is free for non-business use
 - I organized the directories in the following way
     - `bin/` contains the executable shell scripts
     - `docs/` contains the additional documentation files (they end in `.md`)
