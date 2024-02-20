@@ -36,16 +36,18 @@ The current values are:
 
 5. (Optional) To connect to the local database there are the following applications you can use:
     - [BeeKeeper](https://www.beekeeperstudio.io/get)
+        - Connecting to local DB
 ![connecting in beekeeper](res/beekeeper_connect.png)  
+        - Viewing data inside DB
 ![data in beekeeper](res/beekeeper_data.png)
 
 
-6. (Optional) For command line into database container
+6. (Optional) For a command line into the database container
 ```bash
 ./bin/enter_db.sh
 ```
 ![cli for postgres](res/psql_cli.png)
 
-### Additional Resources
+### Additional Documentation 
 - [Postgres Commands](docs/Postgres_Commands.md)
 - [SQL Commands](docs/SQL_Commands.md)
