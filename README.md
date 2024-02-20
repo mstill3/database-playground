@@ -42,12 +42,13 @@
         ```
         ![docker ps start command image](res/docker_cli_start_ps.png)  
 
-4. Once running, you can now connect to the database at [localhost:5432](localhost:5432).  
-The database info can all be changed in the `bin/start_db.sh` file under `# Set local variables`.  
-The current values are:
-- `username: postgres`
-- `port: 5432`
-- `password: password`
+4. Once running, you can now connect to the database at [localhost:5432](localhost:5432).
+    - The database info can all be changed in the `bin/start_db.sh` file under the `# Set local variables` comment.
+    - The current database settings are:
+        - `host`: `localhost`
+        - `username`: `postgres`
+        - `port`: `5432`
+        - `password`: `password`
 
 5. (Optional) To connect to the local database there are the following applications you can use:
     - [BeeKeeper](https://www.beekeeperstudio.io/get)
