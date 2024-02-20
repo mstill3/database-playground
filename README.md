@@ -3,12 +3,12 @@
 ### Notes
 - All software I ask you to install is free for academic use
 - I organized the directories in the following way:
-    - `bin` holds the executable shell scripts
-    - `docs` holds the additional documentation files (they end in `.md`)
-    - `res` holds the additional resources like image files
-    - `src` holds the SQL files
-        - `migrations` are initialized on startup database SQL commands
-        - `scripts` are on-the-fly, ad-hoc SQL commands  
+    - `bin/` holds the executable shell scripts
+    - `docs/` holds the additional documentation files (they end in `.md`)
+    - `res/` holds the additional resources like image files
+    - `src/` holds the SQL files
+        - `migrations/` are initialized on startup database SQL commands
+        - `scripts/` are on-the-fly, ad-hoc SQL commands  
 
 ### Setup
 1. Install [docker](https://docs.docker.com/engine/install/)
